@@ -1,0 +1,234 @@
+body{
+    width: 100%;
+    margin-left: 0px;
+}
+hr{
+    background-color: black;
+}
+#main-heading-panel{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: black;
+    right: 0;
+    z-index: 1;
+    top: 0px;
+}
+#aboutMe-title{
+    left: 140px;
+    position: relative;
+    display: inline;
+    top: 20%;
+
+}
+#subtitle-header{
+    height: 50%;
+    overflow-y: scroll;
+}
+.subtitle-panel{
+    position: absolute;
+    display: inline-flex;
+    left: 65%;
+    list-style-type: none;
+    top: auto;
+}
+#personal-desc1,
+#personal-desc2,
+#personal-desc3{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 13px;
+}
+.subTitle-names{
+    margin: 10px;
+}
+.subTitle-names a{
+    color: inherit;
+    text-decoration: none;
+}
+#about-me-panel{
+    position: relative;
+    top: 100px;
+}
+#info-panel{
+    top: 124px;
+    position: relative;
+    width: 100%;
+    height: 525px;
+   /* border: 5px solid red;*/
+
+}
+#left-panel{
+    width: 25%;
+    float: left;
+    margin: 5px 10px;
+}
+#middle-panel{
+    width: 45%;
+    float: left;
+    margin: 5px 30px;
+}
+#right-panel{
+    width: 20%;
+    float: left;
+    margin: 5px 10px;
+}
+#image-info-container{
+    float: right;
+    width: 70%;
+    margin: 5px 10px;
+    text-align: center;
+}
+#my-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0px 2px 15px 2px rgba(255, 178, 102, 1);;
+}
+.left-panel-bold-titles{
+    margin: 0;
+}
+.left-panel-values{
+    margin-top: 6px;
+}
+li{
+    list-style-type: none;
+}
+#myTitle1,
+#myTitle2,
+#myTitle3{
+    position: relative;
+    color: white;
+    background-color: black;
+    height: 25px;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+#who-panel{
+    border: 2px solid black;
+}
+.displayNone{
+    display: none;
+}
+#right-panel-desc{
+    max-height: 380px;
+    scroll-behavior: auto;
+    border: 1px solid;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#work-exp-panel{
+    position: relative;
+    top: 135px;
+    text-align: center;
+    height: 560px;
+    /* border: 5px solid green; */
+    background-color: lightgray;
+
+}
+.job-title{
+    display: inline;
+    float: left;
+}
+.job-duration{
+    float: right;
+}
+.job-panel{
+    width: 40%;
+  /*  border: 1px dotted red;*/
+    display: inline-block;
+    margin: 10px 30px;
+}
+.job-description{
+    display: inherit;
+  /*  border: 1px solid;*/
+  text-align: justify;
+}
+#work-exp-title{
+    top: 40px;
+    position: relative;
+}
+#job-desc-main-panel{
+    position: relative;
+    top: 60px;
+}
+#getin-touch-main-panel{
+    top: 170px;
+   /* border: 2px solid red;*/
+    position: relative;
+    text-align: center;
+    height: 430px;
+}
+#form-main-panel{
+    height: 300px;
+    top: 40px;
+    position: relative;
+
+}
+.heading-label{
+    width: 25%;
+    float: left;
+    font-size: 20px;
+    top: 20px;
+    position: relative;
+    text-align: right;
+    right: 55px;
+}
+.input-value{
+    width: 60%;
+    float: left;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid;
+    position: relative;
+    margin-top: 16px;
+    outline: none;
+}
+.form-container{
+    margin: 10px 10px;
+}
+#buttons{
+    top: 250px;
+    position: absolute;
+    left: 50%;
+}
+#form-panel{
+    height: 600px;
+}
+#footer-panel{
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 15px 0 0;
+}
+#social-media-panel{
+    float: right;
+
+}
+#copyright-text{
+    top: 40px;
+    position: relative;
+    text-align: center;
+}
+.facebook_icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("./images/pic.jpg");
+}
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+.footer-img{
+    height: 40px;
+    border-radius: 8px;
+}
+#subtitle-footer{
+    overflow-y: scroll;
+    right: 20%;
+}
